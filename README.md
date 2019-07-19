@@ -32,8 +32,8 @@ How to run this project.
 1. Clone this repo
 
 2. To run, go to project folder and run
-Python 2: python -m SimpleHTTPServer 8000
-Python 3: python -m http.server 8000
+**Python 2:** python -m SimpleHTTPServer 8000\
+**Python 3:** python -m http.server 8000\
 
 3. visit - http://localhost:8000/
 
