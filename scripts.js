@@ -9,7 +9,7 @@ function loadWebAssembly(fileName) {
 
 //load WebAssembly
 loadWebAssembly('square.wasm').then(instance => {
-  var square = instance.exports.square;
+  const square = instance.exports.square;
   // call any exported function, e.g. instance.exports.main()
   //console.log(Object.keys(instance.exports));
 
